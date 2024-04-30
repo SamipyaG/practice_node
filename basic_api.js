@@ -1,6 +1,7 @@
-const http = require('http');
-http.createServer((req,resp)=>{
-    resp.writeHead(200,{'content_type':'application\json'});
-    resp.write(JSON.stringify({ name :'samipya ',email : 'samipya117@gmail.com'}));
+const http = require ('http');
+http.createScerver((req,resp)=>{
+    resp.write(" i am savage form brt' ");
     resp.end();
-    }).listen(4000);
+
+
+}).listen(5000);
